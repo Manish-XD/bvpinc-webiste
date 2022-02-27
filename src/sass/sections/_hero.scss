@@ -1,3 +1,7 @@
+// html{
+//   font-size: 39.5% !important;
+// }
+
 #hero {
   min-height: 100vh;
   height: 100vh;
@@ -14,6 +18,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  font-size: 3.6rem !important;
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
@@ -29,7 +34,7 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 3.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
@@ -39,7 +44,7 @@
     }
     @include respond(tab-port) {
       font-size: 3.6rem;
-      text-align: center;
+      text-align: left;
     }
     @include respond(phone) {
       font-size: 3.5rem;
@@ -54,7 +59,7 @@
     display: flex;
 
     @include respond(tab-port) {
-      justify-content: center;
+      // justify-content: center;
     }
 
     & a {
