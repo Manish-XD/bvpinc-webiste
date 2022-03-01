@@ -1,42 +1,46 @@
-.chair{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.chair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card{
-    border: none;
-    margin: 5rem 10rem;
+.card {
+  border: none;
+  margin: 5rem 10rem;
 }
 
-.card h3{
-    margin: 1rem;
-    font-weight: 600;
+.card h3 {
+  margin: 1rem;
+  font-weight: 600;
 }
 
-.card span{
-    font-size: 1.5rem;
+.card span {
+  font-size: 1.5rem;
 }
 
-.card img{
-    object-fit: cover;
-    height: 30rem;
-    width: 30rem;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: all 0.2s ease-in-out;
+.card span {
+  font-size: 1.5rem;
 }
 
-.card img:hover{
-    transform: scale(0.9);
+.card img {
+  object-fit: cover;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
 }
 
-.core{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card img:hover {
+  transform: scale(0.9);
 }
 
-.core .card{
-    margin: 5rem;
+.core {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.core .card {
+  margin: 5rem;
 }
