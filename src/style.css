@@ -44,3 +44,49 @@
 .core .card {
   margin: 5rem;
 }
+
+.faculty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faculty img {
+  border-radius: 50%;
+  height: 30rem;
+  margin: 4rem 5rem;
+}
+
+.faculty-info{
+  margin: 4rem 5rem;
+}
+
+.faculty-info h3{
+  font-size: 3rem;
+}
+
+.faculty-info span{
+  font-size: 4rem;
+}
+
+.size-events{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    background: #1d8f8b;
+}
+
+.size-events h3{
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.size-events span{
+  font-size: 2rem;
+}
+
+.size-events .events{
+  display: flex;
+  flex-direction: column;
+}
